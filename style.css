@@ -1,0 +1,29 @@
+#wrapper {
+    width: 600px;
+    margin: 0 auto;
+    border: 1px solid black;
+    height: 170pt;
+    width: 245pt;
+    padding-top: 15px;
+    padding-left: 15px; }
+  
+  form {
+    width: 400px;
+    float: left; }
+    form label {
+      margin-top: 10px;
+      font: 13px/16px "Arial", Arial, Sans-Serif;
+      display: block; }
+      form label:first-child {
+        margin: 0; }
+    form input[type=text], form textarea {
+      width: 290px;
+      padding: 5px;
+      border: 1px solid #000;
+      outline: 0;
+      display: block; }
+    form input[type=text] {
+      height: 14px; }
+    form textarea {
+      height: 42px; }
+    
